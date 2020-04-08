@@ -25,13 +25,11 @@ public class Controller {
         return service.FindAll();
     }
 
-    @PostMapping(value = {"/user"})
-    public Prodcut SaveUser(@RequestBody Prodcut prodcut){
+    @GetMapping(value = {"/inuser"})
+    public Prodcut SaveUser(){
+         Prodcut prodcut =new Prodcut("ns",44);
          return service.Save(prodcut);
     }
-
-
-
 
 
 }
