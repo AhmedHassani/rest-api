@@ -1,4 +1,4 @@
 spring:
   data:
     mongodb:
-      uri: mongodb://hassani22:rnloah9733@ds123963.mlab.com:23963/heroku_75wq7rpr
+      uri: mongodb://hassani22:rnloah9733@ds123963.mlab.com:23963/heroku_75wq7rpr?retryWrites=false
